@@ -1,0 +1,13 @@
+thead{
+            background-color:antiquewhite;
+        }
+        table,td,th,tr {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        tbody tr:nth-child(even){
+            background-color:slategrey;
+        }
+        tfoot tr{
+            background-color:bisque;
+        }
