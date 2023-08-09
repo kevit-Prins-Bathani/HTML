@@ -4,21 +4,27 @@
    }
     nav{
         top : 0;
-        height: 45px;
+        height: 38px;
         text-align: center;
         justify-content: center;
-        background-color: dimgrey;
+        background-color:#1e3d59;   
+        color: aliceblue;
+        padding-top: 10px;
+        font-size: larger;
     }
     footer{
         border: 1px solid black;
         text-align: center;
-        height: 45px;
+        height: 30px;
         padding-top: 15px;
+        background-color:#ff6e40;
     }
     .container{
         display: flex;
         border: 1px solid black;
-        height: 85vh;
+        height: 90vh;
+        background-color:#f5f0e1;
+        line-height: 25px;
     }
     .item{
         border: 1px solid black; 
@@ -37,10 +43,10 @@
     
     }
      #img1{
-       margin-top: 30px;
+       margin-top: 80px;
     } 
    #img2{
-    margin-top: 30px;
+    margin-top: 20px;
    }
     #item2{
         width: 50%;
@@ -59,4 +65,7 @@
     }
     dt{
        font-weight: bold;
+       font-size: 20px;
+       margin-top:15px;
+       margin-bottom: 15px;
     }
