@@ -62,6 +62,7 @@
     }
     dd{
         text-align: justify;
+        margin-bottom: 25px;
     }
     dt{
        font-weight: bold;

@@ -12,33 +12,32 @@
                 <legend>User information</legend>  
                 <div>
                     <label for="Name">Name </label>
-                    <input type="text" name="name" placeholder="username"
+                    <input type="text" name="name" id="Name" placeholder="username"
                         required>
-
                 </div>
                 <div>
-                    <label for="Email">Email </label>
-                    <input type="email" name="email"
+                    <label for="email">Email </label>
+                    <input type="email" name="email" id="email"
                         placeholder="example@123.com" required>
 
                 </div>
                 <div>
-                    <label for="Phone No.">Phone No. </label>
-                    <input type="tel" name="Phone no"
+                    <label for="pNO">Phone No. </label>
+                    <input id="pNO" type="tel" name="Phone no"
                         placeholder="Phone No." required>
 
                 </div>
                 <div>
-                    <label for="Birthday">Birthday </label>
-                    <input type="date" name="Birthday" required>
+                    <label for="birthday">Birthday </label>
+                    <input type="date" name="Birthday" id="birthday">
                 </div>
                 <div>
-                    <label for="Age">Age</label>
-                    <input type="number" name="Age" min="1" max="100" step="1"
+                    <label for="age">Age</label>
+                    <input type="number" name="Age" id="age" min="1" max="100" step="1"
                         required>
                 </div>
                 <div>
-                    <label for="Sport">Sport</label>
+                    <label>Sport</label>
                     <div>
 
                         <input type="checkbox" name="cricket" id="cricket">
@@ -51,18 +50,21 @@
                         <label for="Chess">Chess </label>
 
                         <input type="checkbox" name="table tennis"
-                            id="table tennis">
-                        <label for="table tennis">Table tennis </label>
+                            id="tabletennis">
+                        <label for="tabletennis">Table tennis </label>
                     </div>
                 </div>
                 <div>
-                    <label for="Gender">Gender </label>
-                    <input type="radio" name="Gender"> Male
-                    <input type="radio" name="Gender"> FeMale
-                    <input type="radio" name="Gender"> Other
+                    <label >Gender </label>
+                    <input type="radio" name="Gender" id="male"> 
+                    <label for="male">Male</label>
+                    <input type="radio" name="Gender" id="female"> 
+                    <label for="female">FeMale</label>
+                    <input type="radio" name="Gender" id="other"> 
+                    <label for="other">Other</label>
                 </div>
                 <div>
-                    <label for="food"> Chose your fav. food</label>
+                    <label > Chose your fav. food</label>
                     <select>
                         <option>Pizza
                         </option>
@@ -86,13 +88,13 @@
                     </select>
                 </div>
                 <div>
-                    <label for="Photo">Upload Photo </label>
+                    <label for="file">Upload Photo </label>
                     <input type="file" name="file" id="file" accept="image/*"
                         required>
                 </div>
                 <div>
-                    <label for="Address">Address. </label>
-                    <textarea> </textarea>
+                    <label for="address">Address. </label>
+                    <textarea id="address"> </textarea>
                 </div>
                 <div id="button">
                     <button id="submit" type="submit" value="submit">Submit</button>
