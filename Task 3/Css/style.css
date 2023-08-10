@@ -23,7 +23,7 @@
         display: flex;
         border: 1px solid black;
         height: 90vh;
-        background-color:#f5f0e1;
+        background-color:antiquewhite;
         line-height: 25px;
     }
     .item{
@@ -31,7 +31,7 @@
         text-align: center;
     }
     #item1{
-        width: 25%;
+        width: 30%;
         padding: 5px;
         display: flex;
         flex-direction: column;
@@ -43,13 +43,10 @@
     
     }
      #img1{
-       margin-top: 80px;
+       margin-top: 20px;
     } 
-   #img2{
-    margin-top: 20px;
-   }
     #item2{
-        width: 50%;
+        width: 45%;
     }
     #item3{
         width: 25%;
