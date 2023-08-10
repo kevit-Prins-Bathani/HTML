@@ -5,7 +5,7 @@
     width: 300px;
     text-align: center;
     box-shadow: inset; 
-    background-color: aliceblue; 
+    background-color:whitesmoke; 
     box-shadow: 5px 10px 8px 10px rgb(37, 37, 37);
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -43,14 +43,14 @@ h1{
  display: flex;
  flex-direction: row;
  background-color:orangered ;
- color: aliceblue;
+ color:white;
  border-bottom-left-radius: 15px;
  border-bottom-right-radius: 15px;
  
 }
 #item1{
     width: 34%;
-    border: 0.1pc solid gray;
+    border: 0.1pc solid rgb(240, 39, 39);
     padding-top: 20px;
     padding-bottom: 20px;
     border-bottom-left-radius: 15px;
@@ -64,7 +64,7 @@ h1{
 }
 #item3{
     width: 34%;
-    border: 0.1pc solid gray;
+    border: 0.1pc solid rgb(240, 39, 39);
     padding-top: 20px;
     padding-bottom: 20px;
     border-bottom-right-radius: 15px;
