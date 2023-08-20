@@ -27,6 +27,7 @@ html {
 nav {
     display: flex;
     flex-direction: row;
+    flex-wrap: nowrap;
     justify-content: center;
     padding-top: 2rem;
     text-align: center;
@@ -41,8 +42,9 @@ header nav ul a {
 }
 
 nav #navbar {
-    margin-right: 30rem;
+    margin-right: 25vw;
 }
+ 
 
 nav ul li {
     display: inline;
@@ -143,6 +145,7 @@ nav ul li {
     color: #ff0095;
     font-size: 14px;
     height: 18px;
+    padding-top: 0.2rem;
     padding-bottom: 0%;
     margin: 0%;
 }
@@ -254,7 +257,7 @@ nav ul li {
 .line-3 {
     display: flex;
     flex-direction: row;
-    gap: 2.5rem;
+    gap: 2rem;
 }
 
 .line3-header h2 {
@@ -268,6 +271,7 @@ nav ul li {
 .item4 {
     display: flex;
     flex-direction: column;
+    width: 24rem;
     gap: 1rem;
 }
 
@@ -284,17 +288,21 @@ nav ul li {
     top: 0;
     display: flex;
     flex-direction: column;
+    width: 24rem;
 }
 
-#item5-img1 {
+.item5-img1 {
     width: 24rem;
-    margin-bottom: 1rem;
+    margin: 0%;
+    padding: 0%;   
     top: 0;
 }
 
 .item5-img {
     position: absolute;
     top: 0%;
+  
+   
 }
 
 .item5-icon {
@@ -312,10 +320,13 @@ nav ul li {
     height: 13.32rem;
     width: 24rem;
     margin-bottom: 1rem;
+    backdrop-filter: blur(3px);
+    background-color: rgba(0,0,0,.5);
 }
 
 .item5-ic {
     position: relative;
+    width: 24rem;
 }
 
 .item5-div {
@@ -326,6 +337,7 @@ nav ul li {
 .item6 {
     display: flex;
     flex-direction: column;
+    width: 24rem;
 }
 
 #item6-img {
@@ -344,7 +356,7 @@ nav ul li {
 .line-4 {
     display: flex;
     flex-direction: row;
-    gap: 2.5rem;
+    gap: 2rem;
 }
 
 .line4-header h2 {
@@ -358,6 +370,7 @@ nav ul li {
 .item7 {
     display: flex;
     flex-direction: column;
+    width: 24rem;
 }
 
 #item7-img {
@@ -373,9 +386,10 @@ nav ul li {
 .item8 {
     display: flex;
     flex-direction: column;
+    width: 24rem;
 }
 
-#item8-img {
+.item8-img {
     width: 24rem;
     height: 13.2rem;
     object-fit: cover;
@@ -391,6 +405,7 @@ nav ul li {
 .item9 {
     display: flex;
     flex-direction: column;
+    width: 24rem;
 }
 
 #item9-img {
@@ -410,7 +425,7 @@ nav ul li {
 .line-5 {
     display: flex;
     flex-direction: row;
-    gap: 2.5rem;
+    gap: 2rem;
 }
 
 .line5-header h2 {
@@ -424,6 +439,7 @@ nav ul li {
 .item10 {
     display: flex;
     flex-direction: column;
+    width: 24rem;
 }
 
 #item10-img {
@@ -439,9 +455,10 @@ nav ul li {
 .item11 {
     display: flex;
     flex-direction: column;
+    width: 24rem;
 }
 
-#item11-img {
+.item11-img {
     width: 24rem;
     height: 14.16rem;
     object-fit: cover;
@@ -456,6 +473,7 @@ nav ul li {
 .item12 {
     display: flex;
     flex-direction: column;
+    width: 24rem;
 }
 
 #item12-img {
@@ -476,7 +494,7 @@ nav ul li {
 .line-6 {
     display: flex;
     flex-direction: row;
-    gap: 2.5rem;
+    gap: 2rem;
 }
 
 .line6-header h2 {
@@ -490,6 +508,7 @@ nav ul li {
 .item13 {
     display: flex;
     flex-direction: column;
+    width: 24rem;
 }
 
 #item13-img {
@@ -505,9 +524,10 @@ nav ul li {
 .item14 {
     display: flex;
     flex-direction: column;
+    width: 24rem;
 }
 
-#item14-img {
+.item14-img {
     width: 24rem;
     height: 13.51rem;
     object-fit: cover;
@@ -522,6 +542,7 @@ nav ul li {
 .item15 {
     display: flex;
     flex-direction: column;
+    width: 24rem;
 }
 
 #item15-img {
@@ -565,14 +586,14 @@ nav ul li {
 }
 
 .footer1 {
-    padding-left: 15rem;
-    padding-right: 13rem;
+    padding-left: 13rem;
+    padding-right: 10rem;
     margin: 3rem;
 }
 
 .footer2 {
     padding-left: 5rem;
-    padding-right: 13rem;
+    padding-right: 10rem;
     margin: 3rem;
 }
 
@@ -607,8 +628,8 @@ nav ul li {
     flex-direction: row;
     background-color: #ff0095;
     border: 1px solid #ff0095;
-    border-radius: 2.3rem;
-    padding: 1rem 1.15rem;
+    border-radius: 2.5rem;
+    padding: 1rem 1.15rem 0.9rem 1rem;
     justify-content: center;
     align-content: space-between;
     justify-content: space-between;
@@ -616,7 +637,8 @@ nav ul li {
 }
 
 #sub-btn {
-    padding-top: 0.2rem;
+    position: relative;
+    justify-content: center;
 }
 
 .subscribe-btn a span svg {
