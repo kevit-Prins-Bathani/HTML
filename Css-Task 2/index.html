@@ -11,14 +11,14 @@
     <body>
         <header id="main-header">
             <nav>
-                <ul id="navbar">
+                <ul id="navbar" class="hidden">
                     <li><a href="https://demo.ghost.io/">Home</a></li>
                     <li><a href="https://demo.ghost.io/about/">About</a></li>
                     <li> <a href="https://demo.ghost.io/tag/getting-started/">Collection</a></li>
                     <li><a href="https://demo.ghost.io/author/ghost/">Author</a></li>
                     <li><a href="https://demo.ghost.io/portal/">Portal</a></li>
                 </ul>
-                <ul id="navbar2">
+                <ul id="navbar2" class="hidden">
                     <li><svg xmlns="http://www.w3.org/2000/svg" fill="none"
                             viewBox="0 0 24 24" stroke-width="1.5"
                             stroke="currentColor" class="h-6">
@@ -30,6 +30,19 @@
                     <li> <a id="subscribe"
                             href="https://demo.ghost.io/#/portal/signup">Subscribe</a></li>
                 </ul>
+                <div class="search">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none"
+                            viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+                        </svg>
+                </div>
+                <div class="barger">
+                    <div class="barger1"></div>
+                    <div class="barger1"></div>
+                    <div class="barger1"></div>
+                </div>
             </nav>
             <div class="header-contain">
                 <h1 id="inner-header1">Ghost</h1>
@@ -41,11 +54,11 @@
         <main >
             <div class="main-content">
             <!-- article 1 -->
-            <article class="item1">
+            <article class="item1 column-item ">
                 <a href="https://demo.ghost.io/welcome/">
-                    <img src="Image/item1.png" id="item1-img">
+                    <img src="Image/item1.png" class="item1-img  column-img">
                 </a>
-                <div id="item1-div">
+                <div  class="item1-div column-div">
                     <a href="https://demo.ghost.io/welcome/">
                         <header class="item1-header">
                             <span>Getting Started</span>
@@ -54,7 +67,7 @@
                                 you need to know
                             </h2>
                         </header>
-                        <main id="item1-main">
+                        <main class="item1-main">
                             We've crammed the most important information to help
                             you get started with Ghost into this one post. It's
                             your cheat-sheet to get started, and your...
@@ -68,15 +81,15 @@
                 </div>
             </article>
 
-            <!-- line 2 -->
-            <div class="line-2">
+            <!--................. line 2.....................-->
+            <div class="line2 line">
 
                 <!-- article 2 -->
-                <article class="item2">
+                <article class="item2 column-item">
                     <a href="https://demo.ghost.io/design/">
-                        <img src="Image/item2.png" id="item2-img">
+                        <img src="Image/item2.png" class="item2-img column-img">
                     </a>
-                    <div class="item2-div">
+                    <div class="item2-div column-div" >
                         <a href="https://demo.ghost.io/design/">
                             <header class="line2-header">
                                 <div class="item-header">
@@ -109,11 +122,11 @@
 
                 <!-- article 3 -->
 
-                <article class="item3">
+                <article class="item3 column-item">
                     <a href="https://demo.ghost.io/design/">
-                        <img src="Image/item3.png" id="item3-img">
+                        <img src="Image/item3.png" class="item3-img column-img">
                     </a>
-                    <div class="item3-div">
+                    <div class="item3-div column-div">
                         <a href="https://demo.ghost.io/design/">
                             <header class="line2-header">
                                 <div class="item-header">
@@ -139,16 +152,16 @@
                 </article>
             </div>
 
-            <!-- line 3 -->
+  <!-- .........................line 3 ..........................-->
 
-            <div class="line-3">
+            <div class="line3 line">
 
                 <!-- article 4 -->
-                <article class="item4">
+                <article class="item4 column-item">
                     <a href="https://demo.ghost.io/portal/">
-                        <img src="Image/item4.png" id="item4-img">
+                        <img src="Image/item4.png" class="item4-img column-img">
                     </a>
-                    <div class="item4-div">
+                    <div class="item4-div column-div">
                         <a href="https://demo.ghost.io/portal/">
                             <header class="line3-header">
                                 <div class="item-header">
@@ -175,13 +188,13 @@
 
                 <!-- article 5 -->
 
-                <article class="item5">
-                    <a href="https://demo.ghost.io/sell/" class="item5-img1">
-                    <div class="item5-ic">
-                        <div class="item5-img">
-                        <img src="Image/item5.png" class="item5-img1">
+                <article class="item5 column-item">
+                    <a href="https://demo.ghost.io/sell/" >
+                    <div class="item5-ic column-img">
+                        <div class="item5-img column-img">
+                        <img src="Image/item5.png" class="item5-img1 column-img">
                     </div>
-                        <div class="item5-icon">
+                        <div class="item5-icon column5-div" >
                             <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M16.25 6.875H3.75C3.40482 6.875 3.125 7.15482 3.125 7.5V16.25C3.125 16.5952 3.40482 16.875 3.75 16.875H16.25C16.5952 16.875 16.875 16.5952 16.875 16.25V7.5C16.875 7.15482 16.5952 6.875 16.25 6.875Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
                                 <path d="M7.1875 6.875V4.0625C7.1875 3.31658 7.48382 2.60121 8.01126 2.07376C8.53871 1.54632 9.25408 1.25 10 1.25C10.7459 1.25 11.4613 1.54632 11.9887 2.07376C12.5162 2.60121 12.8125 3.31658 12.8125 4.0625V6.875" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
@@ -190,7 +203,7 @@
                         </div>
                     </a>
                     </div>
-                    <div class="item5-div">
+                    <div class="item5-div column-div">
                         <a href="https://demo.ghost.io/sell/">
                             <header class="line3-header">
                                 <div class="item-header">
@@ -217,11 +230,11 @@
 
                 <!-- article 6 -->
 
-                <article class="item6">
+                <article class="item6 column-item">
                     <a href="https://demo.ghost.io/grow/">
-                        <img src="Image/item6.png" id="item6-img">
+                        <img src="Image/item6.png" class="item6-img column-img">
                     </a>
-                    <div class="item6-div">
+                    <div class="item6-div column-div">
                         <a href="https://demo.ghost.io/grow/">
                             <header class="line3-header">
                                 <div class="item-header">
@@ -247,16 +260,16 @@
 
             </div>
 
-            <!-- line 4 -->
+  <!-- ........................line 4........................... -->
 
-            <div class="line-4">
+            <div class="line4 line">
 
                 <!-- article 7 -->
-                <article class="item7">
+                <article class="item7 column-item">
                     <a href="https://demo.ghost.io/integrations/">
-                        <img src="Image/item7.png" id="item7-img">
+                        <img src="Image/item7.png" class="item7-img column-img">
                     </a>
-                    <div class="item7-div">
+                    <div class="item7-div column-div">
                         <a href="https://demo.ghost.io/integrations/">
                             <header class="line4-header">
                                 <div class="item-header">
@@ -282,11 +295,11 @@
 
                 <!-- article 8 -->
 
-                <article class="item8">
+                <article class="item8 column-item">
                     <a href="https://demo.ghost.io/the-businessman-the-fisherman/" class="item8-img">
-                        <img src="Image/item8.jpg" class="item8-img">
+                        <img src="Image/item8.jpg" class="item8-img column-img column-img-h">
                     </a>
-                    <div class="item8-div">
+                    <div class="item8-div column-div">
                         <a
                             href="https://demo.ghost.io/the-businessman-the-fisherman/">
                             <header class="line4-header">
@@ -314,11 +327,11 @@
 
                 <!-- article 9 -->
 
-                <article class="item9">
+                <article class="item9 column-item">
                     <a href="https://demo.ghost.io/style-test/">
-                        <img src="Image/item9.jpg" id="item9-img">
+                        <img src="Image/item9.jpg" class="item9-img column-img column-img-h">
                     </a>
-                    <div class="item9-div">
+                    <div class="item9-div column-div">
                         <a href="https://demo.ghost.io/style-test/">
                             <header class="line4-header">
                                 <span class="item-header"></span>
@@ -342,16 +355,16 @@
 
             </div>
 
-            <!-- line 5 -->
+<!-- .....................line 5 ...................................-->
 
-            <div class="line-5">
+            <div class="line5 line">
 
                 <!-- article 10 -->
-                <article class="item10">
+                <article class="item10 column-item">
                     <a href="https://demo.ghost.io/i-have-a-dream/">
-                        <img src="Image/item10.jpg" id="item10-img">
+                        <img src="Image/item10.jpg" class="item10-img column-img">
                     </a>
-                    <div class="item10-div">
+                    <div class="item10-div column-div">
                         <a href="https://demo.ghost.io/i-have-a-dream/">
                             <header class="line5-header">
                                 <div class="item-header">
@@ -377,11 +390,11 @@
 
                 <!-- article 11 -->
 
-                <article class="item11">
+                <article class="item11 column-item">
                     <a href="https://demo.ghost.io/the-purpose-of-education/" class="item11-img">
-                        <img src="Image/item11.jpg" class="item11-img">
+                        <img src="Image/item11.jpg" class="item11-img column-img column-img-h">
                     </a>
-                    <div class="item11-div">
+                    <div class="item11-div column-div">
                         <a
                             href="https://demo.ghost.io/the-purpose-of-education/">
                             <header class="line5-header">
@@ -413,11 +426,11 @@
 
                 <!-- article 12 -->
 
-                <article class="item12">
+                <article class="item12 column-item">
                     <a href="https://demo.ghost.io/out-to-sea/">
-                        <img src="Image/item12.jpg" id="item12-img">
+                        <img src="Image/item12.jpg" class="item12-img column-img column-img-h">
                     </a>
-                    <div class="item12-div">
+                    <div class="item12-div column-div">
                         <a href="https://demo.ghost.io/out-to-sea/">
                             <header class="line5-header">
                                 <div class="item-header">
@@ -442,16 +455,16 @@
                 </article>
             </div>
 
-            <!-- line 6 -->
+<!--........................line 6 .................................-->
 
-            <div class="line-6">
+            <div class="line6 line">
 
                 <!-- article 13 -->
-                <article class="item13">
+                <article class="item13 column-item">
                     <a href="https://demo.ghost.io/looking-glass-house/">
-                        <img src="Image/item13.jpg" id="item13-img">
+                        <img src="Image/item13.jpg" class="item13-img column-img">
                     </a>
-                    <div class="item13-div">
+                    <div class="item13-div column-div">
                         <a href="https://demo.ghost.io/looking-glass-house/">
                             <header class="line6-header">
                                 <div class="item-header">
@@ -477,11 +490,11 @@
 
                 <!-- article 14 -->
 
-                <article class="item14">
+                <article class="item14 column-item">
                     <a href="https://demo.ghost.io/down-the-rabbit-hole/" class="item14-img">
-                        <img src="Image/item14.jpg" class="item14-img">
+                        <img src="Image/item14.jpg" class="item14-img column-img column-img-h">
                     </a>
-                    <div class="item14-div">
+                    <div class="item14-div column-div">
                         <a href="https://demo.ghost.io/down-the-rabbit-hole/">
                             <header class="line6-header">
                                 <div class="item-header">
@@ -507,11 +520,11 @@
 
                 <!-- article 15 -->
 
-                <article class="item15">
+                <article class="item15 column-item">
                     <a href="https://demo.ghost.io/gettysburg-address/">
-                        <img src="Image/item15.jpg" id="item15-img">
+                        <img src="Image/item15.jpg" class="item15-img column-img column-img-h">
                     </a>
-                    <div class="item15-div">
+                    <div class="item15-div column-div">
                         <a href="https://demo.ghost.io/gettysburg-address/">
                             <header class="line6-header">
                                 <div >
@@ -542,6 +555,9 @@
             </div>
             </div>
         </main>
+
+  <!-- ..........................footer..................... -->
+
         <footer class="footer-main">
             <div class="footer1">
                 <a href="https://demo.ghost.io/">Ghost</a>© 2023

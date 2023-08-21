@@ -12,9 +12,12 @@ main a {
 html {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    margin: 0%;
+    padding: 0%;
 }
 
-/*header*/
+/*............header..............................*/
 
 #main-header {
     width: 100%;
@@ -28,7 +31,8 @@ nav {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: center;
+    justify-content: space-around;
+    padding-inline: 2rem;
     padding-top: 2rem;
     text-align: center;
     font-size: 16px;
@@ -41,10 +45,6 @@ header nav ul a {
     color: white;
 }
 
-nav #navbar {
-    margin-right: 25vw;
-}
- 
 
 nav ul li {
     display: inline;
@@ -89,6 +89,23 @@ nav ul li {
     font-weight: 400;
 }
 
+.search {
+    display: none;
+}
+
+.barger {
+    display: none;
+    position: absolute;
+    top: 2rem;
+    right: 5%;
+}
+
+.barger1 {
+    width: 30px;
+    height: 4px;
+    background-color: white;
+    margin: 5px 3px;
+}
 
 /* common  property */
 .main-content {
@@ -145,7 +162,7 @@ nav ul li {
     color: #ff0095;
     font-size: 14px;
     height: 18px;
-    padding-top: 0.2rem;
+    padding-top: 0rem;
     padding-bottom: 0%;
     margin: 0%;
 }
@@ -160,15 +177,16 @@ nav ul li {
 .item1 {
     display: flex;
     flex-direction: row;
+    flex-wrap: nowrap;
     gap: 3rem;
 }
 
-#item1-img {
-    width: 48rem;
+.item1-img {
+    width: 49rem;
     margin-top: 3rem;
 }
 
-#item1-div {
+.item1-div {
     width: 24rem;
     margin-top: 3rem;
 }
@@ -191,7 +209,7 @@ nav ul li {
 
 }
 
-#item1-main {
+.item1-main {
     font-weight: 400;
     font-size: 1rem;
     line-height: 1.5;
@@ -211,14 +229,15 @@ nav ul li {
 .line-2 {
     display: flex;
     flex-direction: row;
-    gap: 3rem;
+    flex-wrap: nowrap;
+    gap: 2.5rem;
 }
 
 .line2-header h2 {
     font-weight: 800;
     font-size: 1.9rem;
     filter: contrast(17.95);
-    padding: 0.8rem 0%;
+    padding: 0.8rem 0;
 }
 
 /* artical 2*/
@@ -227,13 +246,13 @@ nav ul li {
     flex-direction: column;
 }
 
-#item2-img {
-    width: 37rem;
+.item2-img {
+    width: 36.5rem;
     margin-bottom: 1rem;
 }
 
 .item2-div {
-    width: 35rem;
+    width: 36.5rem;
 }
 
 /* artical 3*/
@@ -242,21 +261,22 @@ nav ul li {
     flex-direction: column;
 }
 
-#item3-img {
-    width: 37rem;
+.item3-img {
+    width: 36.5rem;
     margin-bottom: 1rem;
 }
 
 .item3-div {
-    width: 38rem;
+    width: 36.5rem;
 }
 
 
 
-/* * line3 */
+/* * *........................line3.......................* * */
 .line-3 {
     display: flex;
     flex-direction: row;
+    flex-wrap: nowrap;
     gap: 2rem;
 }
 
@@ -275,7 +295,7 @@ nav ul li {
     gap: 1rem;
 }
 
-#item4-img {
+.item4-img {
     width: 24rem;
 }
 
@@ -294,15 +314,15 @@ nav ul li {
 .item5-img1 {
     width: 24rem;
     margin: 0%;
-    padding: 0%;   
+    padding: 0%;
     top: 0;
 }
 
 .item5-img {
     position: absolute;
     top: 0%;
-  
-   
+
+
 }
 
 .item5-icon {
@@ -321,7 +341,7 @@ nav ul li {
     width: 24rem;
     margin-bottom: 1rem;
     backdrop-filter: blur(3px);
-    background-color: rgba(0,0,0,.5);
+    background-color: rgba(0, 0, 0, .5);
 }
 
 .item5-ic {
@@ -330,7 +350,7 @@ nav ul li {
 }
 
 .item5-div {
-    width: 25rem;
+    width: 24rem;
 }
 
 /* artical 6*/
@@ -340,7 +360,7 @@ nav ul li {
     width: 24rem;
 }
 
-#item6-img {
+.item6-img {
     width: 24rem;
     margin-bottom: 1rem;
 }
@@ -351,11 +371,12 @@ nav ul li {
 
 
 
-/* * * line4 */
+/* * * *..................line4.....................* * * */
 
 .line-4 {
     display: flex;
     flex-direction: row;
+    flex-wrap: nowrap;
     gap: 2rem;
 }
 
@@ -373,7 +394,7 @@ nav ul li {
     width: 24rem;
 }
 
-#item7-img {
+.item7-img {
     width: 24rem;
     margin-bottom: 1rem;
 }
@@ -398,7 +419,7 @@ nav ul li {
 }
 
 .item8-div {
-    width: 25rem;
+    width: 24rem;
 }
 
 /* artical 9*/
@@ -408,7 +429,7 @@ nav ul li {
     width: 24rem;
 }
 
-#item9-img {
+.item9-img {
     width: 24rem;
     height: 13.2rem;
     object-fit: cover;
@@ -420,11 +441,12 @@ nav ul li {
 }
 
 
-/* * * * line5 */
+/* * * * *......................... line5.......................* * * * */
 
 .line-5 {
     display: flex;
     flex-direction: row;
+    flex-wrap: nowrap;
     gap: 2rem;
 }
 
@@ -442,7 +464,7 @@ nav ul li {
     width: 24rem;
 }
 
-#item10-img {
+.item10-img {
     width: 24rem;
     margin-bottom: 1rem;
 }
@@ -466,7 +488,7 @@ nav ul li {
 }
 
 .item11-div {
-    width: 25rem;
+    width: 24rem;
 }
 
 /* artical 12*/
@@ -476,7 +498,7 @@ nav ul li {
     width: 24rem;
 }
 
-#item12-img {
+.item12-img {
     width: 24rem;
     height: 14.16rem;
     object-fit: cover;
@@ -489,11 +511,12 @@ nav ul li {
 
 
 
-/* * * * line6 */
+/* * * * * * ....................line6....................* * * * * */
 
 .line-6 {
     display: flex;
     flex-direction: row;
+    flex-wrap: nowrap;
     gap: 2rem;
 }
 
@@ -511,7 +534,7 @@ nav ul li {
     width: 24rem;
 }
 
-#item13-img {
+.item13-img {
     width: 24rem;
     margin-bottom: 1rem;
 }
@@ -535,7 +558,7 @@ nav ul li {
 }
 
 .item14-div {
-    width: 25rem;
+    width: 24rem;
 }
 
 /* artical 15*/
@@ -545,9 +568,9 @@ nav ul li {
     width: 24rem;
 }
 
-#item15-img {
+.item15-img {
     width: 24rem;
-    height: 13.51rem;
+    height: 13.51REM;
     object-fit: cover;
     margin-bottom: 1rem;
 }
@@ -564,13 +587,14 @@ nav ul li {
 }
 
 
-/* footer */
+/*.................. footer............................ */
 
 .footer-main {
     background-color: black;
     padding-bottom: 7.5rem;
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
     color: #fff;
     ;
     font-weight: 300;
@@ -586,14 +610,10 @@ nav ul li {
 }
 
 .footer1 {
-    padding-left: 13rem;
-    padding-right: 10rem;
     margin: 3rem;
 }
 
 .footer2 {
-    padding-left: 5rem;
-    padding-right: 10rem;
     margin: 3rem;
 }
 
@@ -608,7 +628,6 @@ nav ul li {
 }
 
 .footer3 {
-    padding-left: 4rem;
     margin: 3rem;
 }
 
@@ -631,17 +650,88 @@ nav ul li {
     border-radius: 2.5rem;
     padding: 1rem 1.15rem 0.9rem 1rem;
     justify-content: center;
-    align-content: space-between;
-    justify-content: space-between;
-
 }
 
 #sub-btn {
     position: relative;
     justify-content: center;
+    margin-top: 00.2rem ;
 }
 
 .subscribe-btn a span svg {
     padding-right: 0.2rem;
     margin-right: 0.3rem;
+}
+
+.line{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 2rem;
+}
+
+@media only screen and (max-width:1200px) {
+    nav {
+        flex-direction: column;
+        height: 2rem;
+    }
+
+
+    .hidden {
+        opacity: 0%;
+    }
+
+    .search {
+        display: block;
+        width: 5rem;
+        color: white;
+        position: absolute;
+        top: 2rem;
+        left: 5%;
+    }
+
+    nav ul li {
+        display: block;
+        padding: 1rem;
+    }
+
+    .barger {
+        display: block;
+    }
+
+    .column-item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
+        width: 90vw;
+    }
+
+    .column-img {
+        width: 90vw;    
+        object-fit: cover;
+    }
+    .column-img-h{
+        height: 90%;
+        object-fit: cover;
+    }
+
+    .column-div {
+        width: 90vw;
+    }
+
+    .column5-div {
+        width: 90vw;
+        height: 50vw;
+    }
+    .line {
+        display: flex;
+        flex-direction: column;
+        gap: 5rem;
+    }
+    .footer-main{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
