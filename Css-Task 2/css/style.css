@@ -862,15 +862,20 @@ nav ul li {
         background-image: url(header.jpeg);
         object-fit: cover;
         margin: 0;
-        height: 40vh;
+        height: 35vh;
     }
     .header-contain {
         color: white;
         display: flex;
         flex-direction: column;
         align-items: center;
-        position: relative;
         margin-top: 8vh;
+    }
+    #inner-header1{
+        font-size: 2.5rem;
+    }
+    #inner-header2{
+        font-size: 1rem;
     }
     .column5-div {
         width: 100%;
